@@ -1,0 +1,5 @@
+br\com\appProposta\PropostaCreditoApplication.class
+br\com\appProposta\repository\PropostaRepository.class
+br\com\appProposta\SwaggerConfig.class
+br\com\appProposta\model\Proposta.class
+br\com\appProposta\service\PropostaCredito.class

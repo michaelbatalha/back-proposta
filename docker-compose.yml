@@ -1,0 +1,23 @@
+#version: "3"
+#services:
+#    bdproposta:
+#        container_name: bdproposta
+#        build:
+#            context: ./mysql
+#            args:
+#                - MYSQL_DATABASE=${MYSQL_DATABASE}
+#                - MYSQL_USER=${MYSQL_USER}
+#                - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+#                - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+#        ports:
+#            - 3306:3306
+#        network_mode: bridge
+
+
+    ##propostacredito:
+    ##    image: michaelbferreira/ubutalha
+    ##    ports:
+    ##        - 8080:8080
+    ##    network_mode: bridge
+    ##    depends_on:
+    ##        - bdproposta
